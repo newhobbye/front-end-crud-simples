@@ -1,0 +1,79 @@
+#barra {
+    display: inline-block;
+    width: 100%;   
+    height: 70px;
+    border: 2px solid;
+   
+}
+
+.header h1{ 
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    padding: 14px;
+    margin-top: -22px;
+    margin-left: -50px;
+    width: 600px;
+    /* background-color: white; usado só para ter uma noção do tamanho da box */
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+#deletar-section {
+    display: flex;
+    font-size: 25px;
+    margin: 5%;
+    
+}
+
+#cpf {
+    padding-right: 4%;
+    margin-left: 10px;
+}
+
+
+
+.div {
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;  
+    
+}
+
+.retorno tr{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 1%;
+    padding-bottom: 5%;
+}
+
+.retorno {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.grupo {
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+
+.grupo2 {
+    font-size: 25px;
+    font-weight: bold;
+    background-color:  rgb(215, 179, 248);
+    border: 1px solid black;
+    padding: 5px;
+}
+

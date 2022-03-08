@@ -1,0 +1,97 @@
+#barra {
+    width: 100%;   
+    height: 70px;
+    border: 2px solid;
+
+}
+
+.container{
+margin-left: 25%;
+}
+
+#titulo-form {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 110px;
+    padding: 15px;
+}
+
+#form-adiciona {
+    display: inline-block;
+    width: 600px;
+}
+
+.grupo {
+    font-size: 25px;
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.grupo2 {
+    font-size: 25px;
+    margin-left: 10px;
+    background-color:  rgb(215, 179, 248);
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#cpf{
+    width: 88%;
+}
+
+#name{
+    width: 85%;
+}
+
+#age{
+    width: 86%;
+}
+
+#birthDate{
+    width: 75%;
+}
+
+#company{
+    width: 80.5%;
+}
+
+#position{
+    width: 85%;
+}
+
+#salary{
+    width: 83.2%;
+}
+
+#state{
+    width: 83.5%;
+}
+
+#city{
+    width: 83%;
+}
+
+#district{
+    width: 84.3%;
+}
+
+#street{
+    width: 88.2%;
+}
+
+#numberOfStreet{
+    width: 67.7%;
+}
+
+
+#adicionar-Trabalhador {
+    height: 50px;
+    width: 200px;
+    margin: 20px 210px;
+}
+
+
+
+
+

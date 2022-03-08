@@ -1,0 +1,63 @@
+#barra {
+    width: 100%;   
+    height: 70px;
+    border: 2px solid;
+
+}
+
+
+
+h1 {
+    background-color: rgb(175, 123, 223);
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+    margin-right: 10%;
+    margin-left: 5%;
+    padding: 30px;
+}
+
+li {
+    padding: 20px;
+
+ 
+}
+
+#figura{
+    width: 50%;   
+    height: 50px;
+}
+
+a {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-style: oblique;
+    background-color: rgb(175, 123, 223);
+    border: 2px solid black;
+}
+
+ul a:hover {
+    
+    color: rgb(0, 1, 4);
+    text-decoration: underline;
+    
+}
+
+.descricao {
+    font-size: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+let worker = resposta;
+
+    let div = document.querySelector(".retorno");
+    let tr = document.createElement("tr");
+   
+    let cpfTd = document.createElement("td");
+    cpfTd.classList.add("grupo");
+    let nameTd = document.createElement("td");
+    nameTd.classList.add("grupo2");
+    let ageTd = document.createElement("td");
+    ageTd.classList.add("grupo");
+    let birthDateTd = document.createElement("td");
+    birthDateTd.classList.add("grupo2");
+    let companyTd = document.createElement("td");
+    companyTd.classList.add("grupo");
+    let positionTd = document.createElement("td");
+    positionTd.classList.add("grupo2");
+    let salaryTd = document.createElement("td");
+    salaryTd.classList.add("grupo");
+    let stateTd = document.createElement("td");
+    stateTd.classList.add("grupo2");
+    let cityTd = document.createElement("td");
+    cityTd.classList.add("grupo");
+    let districtTd = document.createElement("td");
+    districtTd.classList.add("grupo2");
+    let streetTd = document.createElement("td");
+    streetTd.classList.add("grupo");
+    let numberOfStreetTd = document.createElement("td");
+    numberOfStreetTd.classList.add("grupo2");
+
+    cpfTd.innerHTML = "CPF: " + worker.cpf;
+    nameTd.innerHTML = "Name: " + worker.name;
+    ageTd.innerHTML = "Age: " + worker.age;
+    birthDateTd.innerHTML = "BirthDate: " + worker.birthDate;
+    companyTd.innerHTML = "Company: " + worker.company;
+    positionTd.innerHTML = "Position: " + worker.position;
+    salaryTd.innerHTML = "Salary: " + worker.salary;
+    stateTd.innerHTML = "State: " + worker.state;
+    cityTd.innerHTML = "City: " + worker.city;
+    districtTd.innerHTML = "District: " + worker.district;
+    streetTd.innerHTML = "Street: " + worker.street;
+    numberOfStreetTd.innerHTML = "Number of Street: " + worker.numberOfStreet;
+
+    tr.appendChild(cpfTd);
+    tr.appendChild(nameTd);
+    tr.appendChild(ageTd);
+    tr.appendChild(birthDateTd);
+    tr.appendChild(companyTd);
+    tr.appendChild(positionTd);
+    tr.appendChild(salaryTd);
+    tr.appendChild(stateTd);
+    tr.appendChild(cityTd);
+    tr.appendChild(districtTd);
+    tr.appendChild(streetTd);
+    tr.appendChild(numberOfStreetTd);
+
+
+    div.appendChild(tr);
+
+
+
+
+
+
+});

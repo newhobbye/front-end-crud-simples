@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Deletar por CPF</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/deletarPorCpf.css">
+
+    </head>
+
+    <body class="corpo">
+
+        <header>
+       
+            <div class="header">
+              <img id="barra" src="cor.jpg">
+              <h1 class="title">Deleção por CPF</h1>
+            </div>
+               
+        </header>
+
+
+        <section id="deletar-section">
+            <label for="cpf">Informe o CPF:</label>
+            <input id="cpf" name="cpf" type="text" placeholder="CPF a ser deletado:">
+            <button id="botao-buscar" class="botao-cpf">Buscar</button>
+        </section>
+
+        <div class="mensagem-deletado">
+            <p>Deletado com sucesso!</p>
+        </div>
+
+        
+    </body>
+
+    <footer class="div">
+        <div >
+             <img id="barra" src="cor.jpg">
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="javascript/deleteAPI.js"></script>
+
+        
+</html>
